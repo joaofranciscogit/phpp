@@ -1,0 +1,12 @@
+{
+	"autoload" :
+	{
+		"psr-4" :
+		{
+			"Autoload\\" : "Source/"
+		}
+	},
+	"require": {
+		"php-curl-class/php-curl-class": "^9.6"
+	}
+}
