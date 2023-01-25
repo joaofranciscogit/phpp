@@ -2,5 +2,5 @@
 
         define('SERVICES', 
         [
-                'loren/ipsum'   => API.'loren/ipsum'
+                'loren/ipsum'  => API.'loren/ipsum'
         ]);

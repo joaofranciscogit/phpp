@@ -4,5 +4,9 @@
 
 	class Support
 	{
-		
+		public function activeLink($routeNav, $routeNow){
+			if ($routeNav === $routeNow) {
+				return 'active';
+			}
+		}	
 	}

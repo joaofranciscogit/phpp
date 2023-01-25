@@ -16,7 +16,7 @@
         'DRIVER'    => 'mysql',
         'CHARSET'   => 'utf8',
         'HOST'      => 'localhost',
-        'NAME'      => 'ar',
+        'NAME'      => 'loren_ipsum',
         'USER'      => 'root',
         'PASSWD'  => ''
     ]);

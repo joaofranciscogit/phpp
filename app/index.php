@@ -3,12 +3,15 @@
     require_once "./vendor/autoload.php";
     require_once "./Source/Config/Const.php";
     require_once "./Source/Config/Route.php";
+    require_once "./Source/Config/Service.php";
 
     use Autoload\Lib\Route\Route;
 
     $useRoute   = new Route();
 
     $route = $useRoute->routeData(0)."/".$useRoute->routeData(1);
+
+    define('ROUTE', $route);
 
     $routeReturn = $useRoute->routeReturn(ROUTES, $route);
 

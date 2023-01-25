@@ -4,7 +4,7 @@
     [
         'TYPE'      => 'Loren Ipsum',
         'NAME'      => 'Loren Ipsum',
-        'DETAIL'    => 'Loren Ipsum',
+        'DETAIL'    => null,
         'AUTHOR'    => 'Loren Ipsum',
         'RIGHT'     => 'Loren Ipsum'
     ]);
@@ -14,5 +14,6 @@
 
     define('HTML',        './Source/Html/');
     define('ASSET',       BASE.'Source/Asset/');
+    define('FILE',        BASE.'Source/File/');
 
     define('PATH',       './Source/Module/');

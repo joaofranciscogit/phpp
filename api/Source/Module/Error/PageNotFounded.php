@@ -1,15 +1,5 @@
 <?php
+	
+	header("HTTP/1.1 404");
 
-	require_once './Source/Config/Lib.php';
-
-	define('DATA',
-	[
-		'ACCESS'	=> 'PUBLIC',
-		'MASTER'	=> false,
-		'SESSION'	=> null,
-		'MODULE'	=> null,
-		'TITLE'		=> 'Angoretratos | Página Não Encontrada',
-		'META'		=> null
-	]);
-
-	echo '404';
+	echo json_encode(["RESPONSE"	=> "Not founded"]);
